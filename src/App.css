@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,60 @@
   to {
     transform: rotate(360deg);
   }
+} */
+/* .number{
+  font-size: 100px;
+}
+
+.button{
+  padding: 10px 20px;
+  margin-right: 20px;
+}
+body{
+  background-color: black;
+  color: white;
+} */
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color:black;
+  color:white;
+  font-size: 25px;
+
+} 
+.dltbtn{
+  margin-left: 20px;
+}
+.search {
+  width: 300px; /* Adjust width as needed */
+  padding: 8px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  outline: none; /* Remove default focus outline */
+}
+
+/* Style when the input field is focused */
+.search:focus {
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a shadow on focus */
+}
+
+.button {
+  height: 38px; /* Set the height to match the search bar */
+  padding: 0 40px; /* Adjust padding as needed */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Cursor style */
+  outline: none; /* Remove default focus outline */
+  margin-left: 10px;
+}
+
+/* Style when the button is hovered */
+.button:hover {
+  background-color: #0056b3; /* Change background color on hover */
 }
